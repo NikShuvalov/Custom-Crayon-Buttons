@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name= "crayon_green">#00ee00</color>
+    <color name= "crayon_green_pressed">#00bb00</color>
+    <color name= "crayon_blue">#2a2aff</color>
+    <color name= "crayon_blue_pressed">#0000c4</color>
+    <color name ="crayon_red">#ee0000</color>
+    <color name= "crayon_red_pressed">#aa0000</color>
+    <color name="crayon_yellow">#fff021</color>
+    <color name="crayon_yellow_pressed">#ddd021</color>
+</resources>

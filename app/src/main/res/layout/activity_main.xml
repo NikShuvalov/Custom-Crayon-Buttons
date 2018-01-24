@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="shuvalov.nikita.customviews.MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center_vertical">
+
+        <Space
+            android:id="@+id/divider"
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true"
+            />
+
+        <shuvalov.nikita.customcrayonviews.CustomCrayonButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+            android:text="Press me"
+            android:textSize="16sp"
+            android:background="@drawable/crayon_blue_selector"
+            android:layout_margin="8dp"
+            app:autoPadding="false"
+            android:layout_toStartOf="@id/divider"/>
+
+        <shuvalov.nikita.customcrayonviews.CustomCrayonButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Green"
+            android:textSize="20sp"
+            android:background="@drawable/crayon_green_selector"
+            android:layout_margin="8dp"
+            app:autoPadding="true"
+            android:layout_toEndOf="@id/divider"/>
+
+    </RelativeLayout>
+
+    <shuvalov.nikita.customcrayonviews.CustomCrayonButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#FFF"
+        android:text="What it looks like without auto-padding"
+        android:textSize="20sp"
+        android:background="@drawable/crayon_red_selector"
+        android:layout_margin="8dp"
+        app:autoPadding="false"
+        />
+
+    <shuvalov.nikita.customcrayonviews.CustomCrayonButton
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="#000"
+        android:text="What it looks like with auto-padding"
+        android:textSize="20sp"
+        android:background="@drawable/crayon_yellow_selector"
+        android:layout_margin="8dp"
+        app:autoPadding="true"
+        />
+
+
+</LinearLayout>
