@@ -8,7 +8,20 @@ A simple Button that extends appCompatButton that's meant to look like a crayon 
 
 ### How To Include
 
-Treat the Custom Crayon Button like a typical button; just add the button in your xml layout to include it. 
+#### Including the library
+You can include the dependency using JitPack, directions provided on the page:
+
+https://jitpack.io/#NikShuvalov/Custom-Crayon-Buttons/v0.1
+
+--or--
+
+If you already have the JitPack repository included in your root gradle file, just add the following line to your dependencies:
+
+    compile 'com.github.NikShuvalov:Custom-Crayon-Buttons:v0.1'
+
+#### Using the buttons
+
+Treat the Custom Crayon Button like a typical button; just add the button in your xml layout. 
 
     <shuvalov.nikita.customcrayonviews.CustomCrayonButton
         android:layout_width="match_parent"  
