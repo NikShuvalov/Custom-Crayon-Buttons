@@ -4,6 +4,8 @@
 
 A simple Button that extends appCompatButton that's meant to look like a crayon to add a more playful touch to your apps.
 
+![alt text](https://github.com/NikShuvalov/Custom-Crayon-Buttons/blob/master/crayon_views_screen.png "Example Screenshot")
+
 ### How To Include
 
 Treat the Custom Crayon Button like a typical button; just add the button in your xml layout to include it. 
@@ -58,5 +60,8 @@ Then just set this selector as the background for the button.
 
 #### Auto-Padding
 
-Auto-padding provides left and right padding to keep the text from overlapping the vertical lines of the crayon button.
-Auto-padding defaults to false. 
+Auto-padding provides left and right padding to keep the text contained within the inner vertical lines of the crayon button.
+Auto-padding defaults to false if left empty. 
+
+![alt text](https://github.com/NikShuvalov/Custom-Crayon-Buttons/blob/master/auto_padding_example.png "Auto-Padding example")
+
